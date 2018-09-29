@@ -145,8 +145,3 @@ for i in range(0, len(urls)):
         part='snippet',
         onBehalfOfContentOwner='')
 
-
-# Now we can call our other scripts from one directory up, to download this youtube playlist as mp3s
-# Should automate how we get our json from spotify though!!! Look into spotipy
-# with open('searchOutput.json', 'w') as outfile:
-#     json.dump(urls, outfile)
