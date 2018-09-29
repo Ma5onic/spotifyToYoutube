@@ -13,8 +13,6 @@ The output will be another json file, 'youtubePlaylist.json'.
 Script 2 will use youtubePlaylist.json in order to search all of those songs and add to a youtube playlist
 which the user will need to first manually create, then provide the script with that playlist's unique id in line 135.
 
-Then we can go up one directory to /Desktop/Music/ and use the playlist.py script,
-specifying the youtube playlist url and directory where we want to dl the videos.
 
 
 TLDR:
@@ -35,4 +33,6 @@ run python spotifyToYoutube.py
 copy the whole youtube playlist url, and a name of the folder where the videos will be downloaded
 
 run python playlist.py youtube_playlist_url folder_name
-wait...
+
+Disclaimer: This is a project purely to improve python skills and making api calls. Since we are dealing with apis, we'll need to register as developer and use certain credentials, such as client_id.json, for the second script. Please proceed responsibly. 
+
